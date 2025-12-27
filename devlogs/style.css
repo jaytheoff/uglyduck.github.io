@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 3em;
+}
+
+.return {
+    font-size: 5em;        /* bigger font */
+    margin-right: auto;    /* push to the left */
+    margin-left: 20px;     /* add some spacing from edge */
+    align-self: flex-start; /* align to top-left */
+}
+
+
+.bg {
+    background-color: #000000;
+    color: white;
+    display: block;
+    margin: center
+    
+}
