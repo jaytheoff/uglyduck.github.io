@@ -1,20 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
 .bg {
-    background-color: #000000;
-    color: white;
     display: block;
-    margin: center
+    margin: center;
+    color: black;
 }
 
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+.Welcome {
+    display: block;
+    margin: center;
     text-align: center;
-    font-family: "Jersey 10", sans-serif;
+}
+.Title_Logo {
+    display: block;
+    background-image: url("Images/Cube-Tile.png");
+    margin: center;
+    
+}
+
+.Socials {
+    display: block;
+    margin: center;
+    text-align: center;
 }
     
 
@@ -24,17 +31,23 @@ h1 {
     margin-bottom: 0.5em;
     color: #ffffff;
     display: block;
+    text-align: center;
 }
 
-.logo-image {
-    max-width: 100%;
+h2 {    
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #000000;
     display: block;
-    margin: 0 auto;
+    font-family: 'Jersey 10', sans-serif;
+    text-align: center;
 }
 
 p {    
     font-size: 2em;
     margin-bottom: 0.5em;
-    color: #ffffff;
+    color: #000000;
     display: block;
+    font-family: 'Jersey 10', sans-serif;
+    text-align: center;
 }
